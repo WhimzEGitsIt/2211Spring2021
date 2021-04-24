@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: LampIK2021.ma
-//Last modified: Wed, Apr 21, 2021 05:19:08 PM
+//Last modified: Sat, Apr 24, 2021 10:54:12 AM
 //Codeset: 1252
 requires maya "2020";
 currentUnit -l centimeter -a degree -t film;
@@ -10,18 +10,18 @@ fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 19042)\n";
 fileInfo "license" "student";
-fileInfo "UUID" "219F4F7C-4562-7CFF-3095-F489DD95AE97";
+fileInfo "UUID" "4BC11188-49DC-E2CA-B56C-F79C2C5E255A";
 createNode transform -s -n "persp";
 	rename -uid "B1FA3E2D-49C2-1477-C333-ECB552D89E46";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -7.0365872503658471 19.923958125238137 48.408335323451624 ;
-	setAttr ".r" -type "double3" -8.7383527268316108 -366.19999999919622 0 ;
+	setAttr ".t" -type "double3" -12.613204459009765 47.763010826908868 60.123161731627434 ;
+	setAttr ".r" -type "double3" -25.538352726816147 -376.59999999913924 4.148596159315705e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "3A3A9519-4606-A2EE-4319-C79D1945B5E0";
 	setAttr -k off ".v" no;
 	setAttr ".pze" yes;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 48.681795828492227;
+	setAttr ".coi" 74.758250555907466;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
